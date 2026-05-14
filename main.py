@@ -1,9 +1,7 @@
 import asyncio
 import os
 
-from aiogram import Bot, Dispatcher, Router
-from aiogram.filters import Command, CommandStart
-from aiogram.types import Message
+from aiogram import Bot, Dispatcher
 from dotenv import load_dotenv
 
 from handlers import router
